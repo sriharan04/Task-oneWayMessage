@@ -1,0 +1,14 @@
+.buttonContainer{
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: grey;
+    color: whitesmoke;
+}
+
+.disabled{
+  pointer-events: none;
+  opacity: 0.5;
+}

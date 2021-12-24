@@ -1,0 +1,66 @@
+.messageContainer{
+    display: grid;
+    grid-template-rows: 3.8rem 1fr 2.8rem;
+    gap: 16px; 
+}
+
+.messageHeader{
+    width: 100%;
+    background-color: #20203c;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.messageHeader p{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    color: whitesmoke;
+}
+
+.messageBody{
+    height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    overflow: auto;
+}
+
+.messageFooter{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-top: 1px solid black;
+    margin: 20px 32px;
+    border-radius: 10px;
+    background-color: #20203c;
+    color: white;
+}
+
+.inputbox{
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    margin: 0;
+    color: white;
+}
+
+.emptyContent{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emptyContent p{
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    margin: 0;
+    color: black;
+}

@@ -1,0 +1,122 @@
+.newContactContinaer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contactHeader{
+    width: 100%;
+    background-color: #20203c;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contactHeader p{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    color: whitesmoke;
+}
+
+.contactBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profileContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+}
+
+.profileContainer p{
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    margin: 0;
+    color: black;  
+    text-transform: uppercase;
+}
+
+.profilePic{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: darkgray;
+}
+
+.profileDetails{
+    width: 36rem;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 48px;
+    border-top: 1px solid black;
+    padding: 1rem;
+}
+
+.profileName{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameDetails{
+    display: flex;
+    gap: 4px;
+}
+
+.inputbox{
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    margin: 0;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.inputbox:focus-visible{
+    border-bottom: 1px solid black;
+}
+
+.emailinput{
+    width: 24rem;
+}
+
+.button{
+    width: 10rem;
+    align-self: center;
+}
+
+.confirmSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.errorContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.errorContainer p{
+    margin: 0;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.required{
+    color: red;
+}
+
+.alignRequired{
+    display: flex;
+}

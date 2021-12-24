@@ -1,0 +1,76 @@
+.contentItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 8px;
+}
+
+.contentItem:hover{
+    background-color: #12122c;
+}
+
+.pluginContentItem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profilePic{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: darkgray;
+}
+
+.contactDetail{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.contactDetail p{
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    margin: 0;
+    color: white;
+}
+
+.contactName{
+    color: white !important;
+    font-weight: 700 !important;
+}
+
+.duration{
+    color: grey !important;
+}
+
+.messageContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.messageContainer p{
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    margin: 0;
+    color: darkgray;
+}
+
+.messageHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ellipsis3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }

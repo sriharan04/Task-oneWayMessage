@@ -1,0 +1,16 @@
+.searchConatiner{
+    height: 2rem;
+    display: flex;
+    border-radius: 10px;
+    background-color: #12122c;
+    align-items: center;
+}
+
+.inputbox{
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    margin: 0;
+    color: white;
+}

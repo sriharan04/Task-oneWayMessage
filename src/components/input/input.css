@@ -1,0 +1,13 @@
+.searchContainer {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+.searchContainer:focus,
+.searchContainer:active,
+.searchContainer:focus-visible {
+  border: transparent;
+  outline: none;
+}
