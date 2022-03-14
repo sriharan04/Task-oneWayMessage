@@ -43,7 +43,7 @@ export function NewContact(props) {
     function validate() {
       if (data?.Mobile) {
         let isError = numberOnly(data?.Mobile);
-        console.log("error", isError);
+        console.log("errors", isError);
         if (isError) setError({ ...error, Mobile: isError });
         else setError({ ...error, Mobile: "" });
       } else setError({ ...error, Mobile: "" });
